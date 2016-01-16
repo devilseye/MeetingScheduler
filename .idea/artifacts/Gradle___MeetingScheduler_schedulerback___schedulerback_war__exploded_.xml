@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : MeetingScheduler:schedulerback : schedulerback.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/schedulerback/exploded/schedulerback.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/schedulerback" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="schedulerback/web/Web Gradle : schedulerback.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="schedulerback" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="MeetingScheduler-schedulerlibrary-unspecified.jar">
+            <element id="module-output" name="schedulerlibrary" />
+          </element>
+          <element id="library" level="project" name="mimepull-1.9.6" />
+          <element id="library" level="project" name="jersey-server-2.17" />
+          <element id="library" level="project" name="jersey-container-servlet-core-2.17" />
+          <element id="library" level="project" name="jersey-media-multipart-2.17" />
+          <element id="library" level="project" name="jaxrs-ri-2.17" />
+          <element id="library" level="project" name="javax.ejb-api-3.2-b01" />
+          <element id="library" level="project" name="jersey-common-2.17" />
+          <element id="library" level="project" name="jersey-client-2.17" />
+          <element id="library" level="project" name="javax.ws.rs-api-2.0.1" />
+          <element id="library" level="project" name="jersey-media-jaxb-2.17" />
+          <element id="library" level="project" name="javax.annotation-api-1.2" />
+          <element id="library" level="project" name="hk2-api-2.4.0-b10" />
+          <element id="library" level="project" name="javax.inject-2.4.0-b10" />
+          <element id="library" level="project" name="hk2-locator-2.4.0-b10" />
+          <element id="library" level="project" name="validation-api-1.1.0.Final" />
+          <element id="library" level="project" name="jersey-container-servlet-2.17" />
+          <element id="library" level="project" name="javax.xml.rpc-api-1.1" />
+          <element id="library" level="project" name="javax.transaction-api-1.2-b01" />
+          <element id="library" level="project" name="jersey-guava-2.17" />
+          <element id="library" level="project" name="osgi-resource-locator-1.0.1" />
+          <element id="library" level="project" name="hk2-utils-2.4.0-b10" />
+          <element id="library" level="project" name="aopalliance-repackaged-2.4.0-b10" />
+          <element id="library" level="project" name="javassist-3.18.1-GA" />
+          <element id="library" level="project" name="javax.inject-1" />
+          <element id="library" level="project" name="grizzly-servlet-webserver-1_9_45" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/schedulerback/exploded/schedulerback.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

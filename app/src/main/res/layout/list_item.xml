@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/listitem"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="false"
+            android:src="@android:drawable/ic_menu_delete" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/mainview"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/meetingName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/meetingTextView"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:layout_alignParentTop="false" android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="true" android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/meetingName"
+                android:layout_gravity="center_horizontal"
+                android:layout_toRightOf="@+id/textBeginDate"
+                android:text="@string/beginDateText"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="false"/>
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/startDate"
+                android:layout_gravity="center_horizontal"
+                android:layout_toRightOf="@+id/textEndDate"
+                android:text="@string/endDateText"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_date_field"
+                android:id="@+id/textBeginDate"
+                android:textSize="12sp"
+                android:layout_below="@+id/meetingName"
+                android:layout_above="@+id/endDate"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end_date_field"
+                android:id="@+id/textEndDate"
+                android:textSize="12sp"
+                android:layout_below="@+id/textBeginDate"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

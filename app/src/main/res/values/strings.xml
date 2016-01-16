@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Meeting Scheduler</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="not_logged_in">You're not logged in.</string>
+
+    <string name="rest_login_or_password_error">Login or password is incorrect, or an error on the server occurred.</string>
+    <string name="rest_server_not_available">The server is not available: Timeout expired</string>
+    <string name="data_not_found">Data not found.</string>
+    <string name="result">result</string>
+    <string name="app_full_name">devilseye.android.meetingscheduler.client</string>
+    <string name="notif_new_meetings_received">New meetings were received.</string>
+    <string name="started_from_notif">isStartedFromNotification</string>
+
+    <string name="url">http://192.168.43.93:8080/schedulerback</string>
+    <string name="url_request_meeting">/getTodayMeetings</string>
+    <string name="url_cancel_meeting">/cancelMeeting</string>
+    <string name="url_get_details">/getDescription</string>
+    <string name="url_add_participant">/addParticipant</string>
+    <string name="url_get_meeting_by_description">/getMeetingByDescription</string>
+    <string name="url_add_meeting">/androidCreateMeeting</string>
+
+    <string name="intent_name">android.intent.action.MAIN</string>
+    <string name="intent_received_msg">Received</string>
+    <string name="intent_msg_tag">msg</string>
+
+    <string name="shared_preferences_name">"devilseye.android.meetingscheduler"</string>
+
+    <string name="action_add">New meeting</string>
+    <string name="action_search">Search by description</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="description">Meeting description</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="quit">Quit or not: you decide</string>
+    <string name="really_quit">Do you really want to quit?</string>
+    <string name="ok">OK</string>
+
+    <string name="login_title">Log in</string>
+    <string name="enter_login_message">Enter login and password given by administrator</string>
+    <string name="login_field">Login: </string>
+    <string name="password_field">Password:</string>
+    <string name="result_of_login">Please log in</string>
+    <string name="auth_request">Log in the app. Authorization required.</string>
+
+    <string name="no_internet_connection">Check internet connection, please.</string>
+
+    <string name="desc_title">Search by description</string>
+    <string name="input_descrip">Input description</string>
+
+    <string name="pref_category">Account settings</string>
+
+    <string name="participant_add_message">Participant added.</string>
+    <string name="iconContentDescription">Icon for delete</string>
+    <string name="iconListContent">Icon for list item</string>
+    <string name="iconPriorityContent">Icon for priority</string>
+
+    <string name="meetingTextView">meetingName</string>
+    <string name="beginDateText">beginDate</string>
+    <string name="endDateText">endDate</string>
+
+    <string name="unauthorized">[{\"response\":\"false\"}]</string>
+
+    <string name="menu_add">Enroll</string>
+    <string name="menu_info">Details</string>
+
+    <string name="fio">FIO</string>
+    <string name="position">Position</string>
+    <string name="participantText">Input data:</string>
+    <string name="participantTitle">Enroll</string>
+    <string name="start_date_field">Start date:</string>
+    <string name="end_date_field">End date:</string>
+    <string name="text_start_time">Start time:</string>
+    <string name="text_end_time">End time:</string>
+
+    <string name="new_meeting">New meeting</string>
+    <string name="meeting_name">Name:</string>
+    <string name="meeting_description">Description: </string>
+    <string name="meeting_participants">Participants: </string>
+    <string name="priority">Priority:</string>
+    <string name="priority_urgent">URGENT</string>
+    <string name="priority_optional">OPTIONAL</string>
+    <string name="priority_planned">PLANNED</string>
+
+    <string name="delete_message">Meeting cancelled.</string>
+    <string name="add_message">Meeting added.</string>
+</resources>
